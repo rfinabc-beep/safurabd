@@ -1,7 +1,7 @@
 'use client'
 import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
-import { supabase } from '@/lib/supabase'
+import { supabase } from '../../lib/supabase'
 
 const TABS = ['অর্ডার', 'পণ্য', 'গ্রাহক']
 const STATUS_OPTIONS = ['pending', 'confirmed', 'delivered', 'cancelled']
